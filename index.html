@@ -235,10 +235,39 @@
   </section>
 
   <section id="contact" class="container">
-    <h2>Contact</h2>
-    <p>Ready to get started?</p>
-    <p>Send me a message at: <a href="mailto:web.joelcoronel@gmail.com">web.joelcoronel@gmail.com</a></p>
-  </section>
+  <h2>Contact</h2>
+  <p>Ready to get started? Send me a message!</p>
+  <form action="https://formspree.io/f/xeorvvea" method="POST" style="max-width: 600px; margin: 0 auto;">
+    <div style="margin-bottom: 1rem;">
+      <input 
+        type="text" 
+        name="name" 
+        placeholder="Your name" 
+        required 
+        style="width: 100%; padding: 0.75rem; border: 1px solid #ccc; border-radius: 6px; font-family: 'Inter', sans-serif;"
+      >
+    </div>
+    <div style="margin-bottom: 1rem;">
+      <input 
+        type="email" 
+        name="email" 
+        placeholder="Your email" 
+        required 
+        style="width: 100%; padding: 0.75rem; border: 1px solid #ccc; border-radius: 6px; font-family: 'Inter', sans-serif;"
+      >
+    </div>
+    <div style="margin-bottom: 1.5rem;">
+      <textarea 
+        name="message" 
+        placeholder="Your message" 
+        required 
+        rows="5"
+        style="width: 100%; padding: 0.75rem; border: 1px solid #ccc; border-radius: 6px; font-family: 'Inter', sans-serif;"
+      ></textarea>
+    </div>
+    <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+  </form>
+</section>
 
   <footer>
     <div class="container">
